@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="0.jpg" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: black;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+
+        .navbar ul a:active {
+            background-color: gold;
+            font-size: 100px;
+        }
+
+        .navbar {
+            height: 50px;
+            background-color: black;
+        }
+
+        .navbar ul {
+            list-style: none;
+            /* display : flex ;  */
+        }
+
+        .change {
+            cursor: pointer;
+            border: 3px solid rgba(117, 38, 153, 0);
+            text-align: center;
+            border-radius: 50%;
+            padding: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+            float: right;
+            font-size: 30px;
+        }
+
+        .navbar ul li {
+            float: left;
+            padding: 10px 85px;
+            color: white;
+            font-size: 20px;
+            font-family: sans-serif;
+            transition: all 0.5s;
+        }
+
+        .navbar ul li:hover {
+            font-size: 28px;
+            background-color: rgb(255, 204, 0);
+            color: rgb(0, 0, 0);
+            text-shadow: 3px 3px 30px yellow;
+            display: block;
+        }
+
+        .navbar img {
+            float: right;
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        marquee {
+            font-size: 40px;
+            color: rgb(255, 204, 0);
+            font-weight: bolder;
+        }
+
+        #container {
+            height: 100%;
+            width: 200px;
+            background-color: black;
+            position: fixed;
+            left: -200px;
+            transition: all 0.4s ease-in-out;
+            top: 0px;
+        }
+
+
+        link {
+            border-radius: 50%;
+        }
+
+        .content1 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .content1 .items {
+            width: 500px;
+            height: 500px;
+            border: yellow 4px solid;
+            color: yellow;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 20px;
+            height: 10px;
+            border-radius: 45px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: black;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: rgb(255, 255, 0);
+            border-radius: 45px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: orange ;
+        }
+
+        .imag {
+            width: 500px;
+            height: 500px;
+        }
+        .imagee {
+            width: 490px;
+            height: 500px;
+        }
+        h2{
+            color: yellow;
+            font-size: 25px;
+            text-align: center;
+        }
+
+    </style>
+    <title>Ascend Perfumes</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="0.jpg">
+        <ul>
+            <a href="home.html">
+                <li> Home </li>
+            </a>
+            <a href="men.html">
+                <li> Men </li>
+            </a>
+            <a href="women.html">
+                <li> Women </li>
+            </a>
+            <a href="kids.html">
+                <li> Kids </li>
+            </a>
+            <a href="about.html">
+                <li> About Us </li>
+            </a>
+            <a href="contact.html">
+                <li> Contact Us </li>
+            </a>
+        </ul>
+    </div>
+
+    <hr color="yellow"> <br> <br>
+    <marquee behavior="slide" direction="right">WELCOME TO ASCEND PERFUMES !</marquee>
+    <br> <br> <br> <br> <br> 
+
+    <div class="content1">
+        <div class="items"><a href="men.html"><img src="men.jpg" class="imag"></a><br>Grey Oak</div>
+        <div class="items"><a href="women.html"><img src="women.jpg" class="imag"></a><br>Caribbean Green</div>
+        <div class="items"><a href="kids.html"><img src="kid.jpg" class="imagee"></a><br>Orchid Ecstacy</div>
+    </div> <br> <br> <br> <br>
+    <hr color="yellow"> <br> <br><br><br><br>
+    <h2>Copyright © 2022 Ascend Perfumes. All Rights Reserved. Powered by Team Ascend</h2> <br><br><br><br><br>
+    <hr color="yellow"> <br><br>
+
+</body>
+
+</html>
